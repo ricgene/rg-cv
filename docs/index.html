@@ -58,9 +58,18 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+            position: relative;
         }
         
-        /* Profile pic removed */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
         
         .header-title {
             font-size: 2.5rem;
@@ -414,6 +423,7 @@
     <!-- Header -->
     <header>
         <div class="container header-container">
+            <img src="headshot_rg_2025.png" alt="Richard Genet" class="profile-image">
             <h1 class="header-title">Richard P. Genet, MS</h1>
             <h2 class="header-subtitle">Software Engineer & AI/ML Consultant</h2>
             <p class="header-goal">Data wrangling, AI/ML Cloud development and advisory roles specialist with expertise in automation, DevOps, and team leadership</p>
@@ -491,8 +501,8 @@
                         <div class="timeline-position">Innovator in AI Use and Applications</div>
                         <div class="timeline-description">
                             <ul>
-                                <li><strong>GoPrizm:</strong> Full Stack AI mobile app MVP using React Native, Python, Google Vertex/AI cloud, Claude, and chatGPT</li>
-                                <li><strong>GrowToGlobal | Georgia CleanTech Innovation Hub:</strong> VirtualCSO mobile app MVP with Full Stack + web API integrations</li>
+                                <li><strong>GoPrizm:</strong> Full Stack AI Home Improvement mobile app: React Native, Langsmith Agents with Claude LLM, GCP(authentication, db, serverless functions)  MVP WIP</li>
+                                <li><strong>GrowToGlobal | Georgia CleanTech Innovation Hub:</strong> VirtualCSO AI mobile app using React Native, LLM, RAG, API data sourcing  MVP WIP</li>
                                 <li><strong>Independent + Atlanta Block Chain:</strong> AI Agents with RAG PoC using chatGPT 4.0 and Claude.ai Sonnet backend</li>
                             </ul>
                         </div>
